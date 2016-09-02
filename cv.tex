@@ -1,0 +1,162 @@
+%% start of file `Lebenslauf_Template.tex'.
+%% Original-Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Changed by gratiswurst.de
+%
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[11pt,a4paper]{moderncv}
+
+% moderncv themes
+% \moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+% character encoding
+% \usepackage[english]{babel}
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+% \usepackage{hyperref}
+\usepackage{csquotes}
+\setlength{\hintscolumnwidth}{3cm}                      % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+
+%----------------------------------------------------------------------------------
+%            Kontaktdaten
+%----------------------------------------------------------------------------------
+% VORNAME
+\firstname{Helge}
+% NACHNAME
+\familyname{Eichhorn}
+%TITEL (optional, ggf. einfach die Zeile lˆschen!)
+\title{Curriculum Vitae}
+%ADRESSE  (optional, ggf. einfach die Zeile lˆschen!)
+\address{Holzhofallee 22b}{64295 Darmstadt, Germany}
+%HANDYNUMMER  (optional, ggf. einfach die Zeile lˆschen!)
+\mobile{+49176/81023501}
+%FESTNETZNUMMER  (optional, ggf. einfach die Zeile lˆschen!)
+% \phone{+496132 / 62947}
+%EMAIL-ADRESSE  (optional, ggf. einfach die Zeile lˆschen!)
+\email{helge@helgeeichhorn.de}
+%HOMEPAGE  (optional, ggf. einfach die Zeile lˆschen!)
+\homepage{www.helgeeichhorn.de}
+%FOTO  (optional, ggf. einfach die Zeile lˆschen!)
+%  64pt = Hˆhe des Bildes, 'picture' = Name des Bildes
+%\photo[64pt]{picture}
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+% \makeatletter
+% \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+% \makeatother
+
+%----------------------------------------------------------------------------------
+%            Inhalt
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle
+\section{Personal Information}
+\cvline{Date of Birth}{19/12/1986}
+\cvline{Place of Birth}{Mainz}
+\cvline{Nationality}{German}
+% \cvline{Geschlecht}{männlich}
+% \cvline{Familienstand}{ledig}
+
+\section{Professional Experience}
+\cvline{since 2/2013}{Master's Thesis at the European Space Operations Centre (ESOC)%
+\begin{itemize}
+    \item Mission Analysis Section:
+    \begin{itemize}
+        \item Design and implementation of a Fortran framework for the numerical propagation and optimization of launcher ascent trajectories.
+    \end{itemize}
+\end{itemize}
+}
+\cvline{11/2012~--~1/2013}{Traineeship at the European Space Operations Centre (ESOC)%
+\begin{itemize}
+  \item Mission Analysis Section:
+      \begin{itemize}
+          \item Reconstruction of the Apollo 15 trajectory on behalf of ESAC for the re-evalutation of science data.
+      \end{itemize}
+  \item Gaia Spacecraft Operations:
+        \begin{itemize}
+          \item Implementation of a Long-Term Mission Planning Tool intended for Mission Planning System validation and as backup during operations.
+        \end{itemize}
+  \end{itemize}}
+% \cvline{since 2012}{Development and maintenance of an open-source Python astrodynamics library%
+% \begin{itemize}
+%     \item Plyades (\url{https://github.com/helgee/plyades})
+% \end{itemize}}
+
+\section{University Education}
+\subsection{Master's Degree in \enquote{Mechanical and Process Engineering}}
+\cvline{since 10/2007}{Technische Universität Darmstadt}
+\cvline{}{Master's Thesis~--~\emph{Knowledge-Based Simulation Models for the Payload Assessment of Launch Systems} \newline Advisor: Prof. Dr.-Ing. Reiner Anderl}
+\cvline{25/5/2011}{Bachelor's Thesis~--~\emph{Image Post-Processing of the Impact of Super-Cooled Drops} \newline Advisor: Prof. Dr.-Ing. Cameron Tropea}
+\cvline{8/2008~--~10/2008}{Stay abroad: Kunglia Tekniska Högskolan (KTH) Stockholm, Sweden}
+\cvline{2/2008~--~3/2008}{Internship: Werner \& Mertz GmbH, Mainz}
+
+%\section{Beruflicher Werdegang}
+%\cvline{7/2006 - 9/2006}{Arbeit suchend}
+%\cvline{6/2005 - 7/2006}{B¸rokaufmann \newline bei Immergut GmbH in 12345 Muns}
+%\cvline{7/2002 - 7/2005}{Ausbildung zum B¸rokaufmann \newline bei Immergut GmbH in 12345 Muns}
+
+\section{Civilian Service}
+\cvline{10/2006~--~6/2007}{Paramedic -- DRK Rettungsdienst Rheinhessen-Nahe gGmbH, Mainz}
+
+\section{Education}
+\cvline{8/1997~--~3/2006}{Rabanus-Maurus-Gymnasium Mainz}
+% \cvline{8/1993 - 7/1997}{Grundschule Wackernheim}
+\cvline{1/2003~--~6/2003}{Stay abroad: Belmont Secondary Highschool Victoria(B.C.), Canada}
+
+
+\section{Other Experience}
+
+\cvline{10/2009~--~10/2012}{Teaching assistant for MATLAB programming and software development at the Department of Computer Integrated Design (DIK) at TU Darmstadt}
+\cvline{6/2006~--~9/2006}{Temporary employment at Mainzer Volksbank eG - Organisation Department}
+
+\section{Additional Qualifications}
+
+\subsection{Language Skills}
+\cvline{German}{native speaker}
+\cvline{English}{fluent}
+\cvline{Swedish}{basic skills}
+
+\subsection{IT Skills}
+\cvline{Software development}{Python, MATLAB, Fortran 77/95/2003}
+\cvline{OS}{Unix, Windows}
+\cvline{CAD}{Siemens NX}
+\cvline{other}{LaTeX, Microsoft Office, LibreOffice}
+% \cvline{C/C++}{Grundkenntnisse}
+% \cvline{Java}{Grundkentnisse}
+% \cvline{Fortran}{Grundkentnisse}
+% \cvline{Python}{Grundkentnisse}
+% \cvline{CAD}{Gute Kenntnisse in Unigraphics NX8}
+% \cvline{MS Office}{Gute Kenntnisse}
+% \cvline{OpenOffice}{Gute Kenntnisse}
+% \cvline{}{Administration von Windows- und Unix-Systemen}
+%
+%\section{Zertifikate}
+%\cvline{24.05.2011 - 25.07.2022}{Jodeldiplom}
+%\cvline{22.07.2009}{Selbst- und Zeitmanagement}
+%\cvline{11.12.2008}{Projektmanagaement}
+
+%\section{Liste mit irgendwelchen Sachen}
+%\renewcommand{\listitemsymbol}{-} % Das Aufz‰hlungszeichen f¸r die folgende Liste
+%\cvlistdoubleitem{Das kann ich}{Das hier auch}
+%\cvlistdoubleitem{Und sowas ist ganz toll}{Blablabla}
+%\cvlistdoubleitem{Und noch was}{}
+\strut\\
+\strut\\
+\strut\\
+Darmstadt, \today\\ % Aktuelles Datum und Stadt
+%\includegraphics[scale=0.7]{us.jpg}\\ % Unterschrift. Löschen falls nicht vorhanden
+\end{document}
+
+
+%% end of file `Lebenslauf_Template.tex'.
