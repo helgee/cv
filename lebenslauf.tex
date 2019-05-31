@@ -1,0 +1,189 @@
+%% start of file `Lebenslauf_Template.tex'.
+%% Original-Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
+%% Changed by gratiswurst.de
+%
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+\documentclass[10pt,a4paper]{moderncv}
+
+% moderncv themes
+%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+\moderncvtheme[blue]{classic}                % idem
+
+% character encoding
+\usepackage[english, ngerman]{babel}
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+\usepackage{graphicx}
+\usepackage{url}
+% \usepackage{hyperref}
+\usepackage{csquotes}
+\setlength{\hintscolumnwidth}{3.1cm}                      % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+
+%----------------------------------------------------------------------------------
+%            Kontaktdaten
+%----------------------------------------------------------------------------------
+% VORNAME
+\firstname{Helge}
+% NACHNAME
+\familyname{Eichhorn}
+%TITEL (optional, ggf. einfach die Zeile lˆschen!)
+\title{Lebenslauf}
+%ADRESSE  (optional, ggf. einfach die Zeile lˆschen!)
+\address{Holzhofallee 22b}{64295 Darmstadt, Germany}
+%HANDYNUMMER  (optional, ggf. einfach die Zeile lˆschen!)
+\mobile{+49 176/81023501}
+%FESTNETZNUMMER  (optional, ggf. einfach die Zeile lˆschen!)
+% \phone{+496132 / 62947}
+%EMAIL-ADRESSE  (optional, ggf. einfach die Zeile lˆschen!)
+\email{helge@helgeeichhorn.de}
+%HOMEPAGE  (optional, ggf. einfach die Zeile lˆschen!)
+% \homepage{www.helgeeichhorn.de}
+%FOTO  (optional, ggf. einfach die Zeile lˆschen!)
+%  64pt = Hˆhe des Bildes, 'picture' = Name des Bildes
+\photo[40pt]{ei.jpg}
+
+% to show numerical labels in the bibliography; only useful if you make citations in your resume
+% \makeatletter
+% \renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+% \makeatother
+
+%----------------------------------------------------------------------------------
+%            Inhalt
+%----------------------------------------------------------------------------------
+\begin{document}
+\sffamily
+\maketitle
+\section{Persönliche Informationen}
+\cvline{Geburtsdatum}{19.12.1986}
+% \cvline{Place of Birth}{Mainz}
+\cvline{Nationalität}{deutsch}
+% \cvline{Geschlecht}{männlich}
+% \cvline{Familienstand}{ledig}
+
+\section{Berufserfahrung}
+\subsection{Freiberuflicher Mitarbeiter in der Missionsanalyse}
+\cvline{seit 1.2015}{European Space Operations Centre, European Space Agency%
+    \begin{itemize}
+        \item Entwicklung einer neuen Softwareinfrastruktur für Mondmissionen.
+        \item Weiterentwicklung und Wartung der Aufstiegsbahnoptimierungssoftware FASTOP.
+        \item Evaluation von modernen Programmiersprachen für die nächste Generation von Raumfahrtmechaniksoftwaresystemen.
+    \end{itemize}
+}
+\subsection{Wissenschaftlicher Mitarbeiter am Fachgebiet für Datenverarbeitung in der Konstruktion (DiK)}
+\cvline{seit 11.2013}{Technische Universität Darmstadt%
+            \begin{itemize}
+                \item Industriekooperation mit der Airbus Group (2015--2016).
+                \begin{itemize}
+                    \item Evaluation von LOTAR-konformen Produktdatenarchivsystemen und Erstellung einer Vergleichsstudie.
+                \end{itemize}
+                \item DFG-gefördertes Forschungsprojekt \emph{SCoPE -- Smart Components within Smart Production Processes and Environments} (2014--2015).
+                \begin{itemize}
+                    \item Entwicklung eines integrierten Bauteildatenmodells in Zusammenarbeit mit zwei brasilianischen Universitäten (UNIMEP, Poli-USP).
+                \end{itemize}
+                \item Organisatorische und didaktische Unterstützung der Vorlesung \emph{Virtuelle Produktentwicklung C -- Produkt- und Prozessmodellierung}.
+            \end{itemize}
+}
+\subsection{Masterarbeit in der Missionsanalyse}
+\cvline{5.2013~--~10.2013}{European Space Operations Centre, European Space Agency%
+\begin{itemize}
+    \item Entwicklung der Aufstiegsbahnoptimierungssoftware FASTOP.
+\end{itemize}
+}
+\subsection{Praktikum im Kontrollteam der Gaia-Mission und in der Missionsanalyse }
+\cvline{11.2012~--~4.2013}{European Space Operations Centre, European Space Agency%
+\begin{itemize}
+    \item Entwicklung eines Softwaretools für die Validierung des Missionsplanungssystems der Gaia-Mission.
+    \item Rekonstruktion der Apollo-15-Flugbahn für die Reevaluierung von Röntgenstrahlungsmessungen.
+\end{itemize}
+}
+
+\section{Akademische Laufbahn}
+\subsection{Promotion im Maschinenbau}
+\cvline{seit 11.2013}{Technische Universität Darmstadt}
+\cvline{erwartet 1.2017}{Dissertation~--~\emph{Model-Based Space Mission Design (Arbeitstitel)} \newline Betreuer: Prof. Dr.-Ing. Reiner Anderl}
+\newpage
+\subsection{Master of Science in \enquote{Mechanical and Process Engineering}}
+\cvline{10.2011~--~10.2013}{Technische Universität Darmstadt}
+\cvline{21.10.2013}{Masterthesis~--~\emph{Knowledge-Based Simulation Models for the Payload Assessment of Launch Systems} \newline Betreuer: Prof. Dr.-Ing. Reiner Anderl}
+\subsection{Bachelor of Science in \enquote{Mechanical and Process Engineering}}
+\cvline{10.2007~--~9.2011}{Technische Universität Darmstadt}
+\cvline{25.5.2011}{Bachelorthesis~--~\emph{Image Post-Processing of the Impact of Super-Cooled Drops} \newline Betreuer: Prof. Dr.-Ing. Cameron Tropea}
+\cvline{8.2008~--~10.2008}{Auslandsaufenthalt: Kunglia Tekniska Högskolan (KTH) Stockholm, Schweden}
+% \cvline{2/2008~--~3/2008}{Internship: Werner \& Mertz GmbH, Mainz}
+
+\section{Zivildienst}
+\cvline{10.2006~--~6.2007}{Rettungssanitäter -- DRK Rettungsdienst Rheinhessen-Nahe gGmbH, Mainz}
+
+\section{Schulbildung}
+\cvline{8.1997~--~3.2006}{Rabanus-Maurus-Gymnasium, Mainz}
+% \cvline{8/1993 - 7/1997}{Grundschule Wackernheim}
+\cvline{1.2003~--~6.2003}{Auslandsaufenthalt: Belmont Secondary Highschool Victoria, B.C., Canada}
+
+
+% \section{Other Experience}
+%
+% \cvline{10/2009~--~10/2012}{Teaching assistant for MATLAB programming and software development at Department of Computer Integrated Design (DIK) -- TU Darmstadt}
+% \cvline{6/2006~--~9/2006}{Temporary employment at Mainzer Volksbank eG - Organisation Department}
+
+\section{Zusätzliche Qualifikationen}
+
+\subsection{Sprachkentnisse}
+\cvline{Deutsch}{Muttersprache}
+\cvline{Englisch}{Verhandlungssicher}
+
+\subsection{Softwareentwicklung}
+\cvline{Julia}{Experte}
+\cvline{Python}{Experte}
+\cvline{MATLAB}{Experte}
+\cvline{Fortran 2008}{Experte}
+\cvline{C/C++}{Fortgeschritten}
+\cvline{Java}{Fortgeschritten}
+\subsection{IT-Kentnisse}
+\cvline{OS}{Linux, Windows, macOS}
+% \cvline{CAD}{Siemens NX}
+\cvline{Büroanwendungen}{LaTeX, Microsoft Office, LibreOffice}
+% \cvline{C/C++}{Grundkenntnisse}
+% \cvline{Java}{Grundkentnisse}
+% \cvline{Fortran}{Grundkentnisse}
+% \cvline{Python}{Grundkentnisse}
+% \cvline{CAD}{Gute Kenntnisse in Unigraphics NX8}
+% \cvline{MS Office}{Gute Kenntnisse}
+% \cvline{OpenOffice}{Gute Kenntnisse}
+% \cvline{}{Administration von Windows- und Unix-Systemen}
+%
+%\section{Zertifikate}
+%\cvline{24.05.2011 - 25.07.2022}{Jodeldiplom}
+%\cvline{22.07.2009}{Selbst- und Zeitmanagement}
+%\cvline{11.12.2008}{Projektmanagaement}
+
+%\section{Liste mit irgendwelchen Sachen}
+%\renewcommand{\listitemsymbol}{-} % Das Aufz‰hlungszeichen f¸r die folgende Liste
+%\cvlistdoubleitem{Das kann ich}{Das hier auch}
+%\cvlistdoubleitem{Und sowas ist ganz toll}{Blablabla}
+%\cvlistdoubleitem{Und noch was}{}
+\section{Relevante Publikationen}
+\begin{itemize}
+    \item Eichhorn, Helge; Cano, Juan Luis; McLean, Frazer; Anderl, Reiner: A Comparative Study of Programming Languages for Next-Generation Astrodynamics Systems. In: Proceedings of the 6th International Conference on Astrodynamics Tools and Techniques (ICATT), Darmstadt, 14.-17. März 2016.
+    \item Eichhorn, Helge; Anderl, Reiner: Plyades: A Python Library for Space Mission Design. In: Proceedings of the 8th European Conference on Python in Science (EuroSciPy 2015), Cambridge, Vereinigtes Königreich, 28.-29. August 2015 (S. 9-12).
+\end{itemize}
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+\bigskip
+Darmstadt, \today % Aktuelles Datum und Stadt
+%\includegraphics[scale=0.7]{us.jpg}\\ % Unterschrift. Löschen falls nicht vorhanden
+\end{document}
+
+
+%% end of file `Lebenslauf_Template.tex'.
