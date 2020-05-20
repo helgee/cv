@@ -1,21 +1,8 @@
-%% start of file `Lebenslauf_Template.tex'.
-%% Original-Copyright 2006-2010 Xavier Danaux (xdanaux@gmail.com).
-%% Changed by gratiswurst.de
-%
-%
-% This work may be distributed and/or modified under the
-% conditions of the LaTeX Project Public License version 1.3c,
-% available at http://www.latex-project.org/lppl/.
-
 \documentclass[10pt,a4paper]{moderncv}
 
-% moderncv themes
-%\moderncvtheme[blue]{casual}                 % optional argument are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
-\moderncvtheme[blue]{classic}                % idem
+\moderncvtheme[blue]{classic}
 
-% character encoding
-% \usepackage[english]{babel}
-\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+\usepackage[utf8]{inputenc}
 
 % adjust the page margins
 \usepackage[scale=0.8]{geometry}
@@ -23,10 +10,7 @@
 \usepackage{url}
 % \usepackage{hyperref}
 \usepackage{csquotes}
-\setlength{\hintscolumnwidth}{3.1cm}                      % if you want to change the width of the column with the dates
-%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
-%\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
-
+\setlength{\hintscolumnwidth}{3.1cm}
 
 \firstname{Helge}
 \familyname{Eichhorn}
@@ -43,20 +27,27 @@
 \cvline{Nationality}{German}
 
 \section{Professional Experience}
+\subsection{Technology Consultant -- Artificial Intelligence \& Data Analytics}
+\cvline{3/2020~--~present}{Lufthansa Industry Solutions AS GmbH
+    \begin{itemize}
+        \item Data engineering, DevOps, and CI/CD consultancy
+		\item Fuel efficiency analytics and data quality management at Deutsche Lufthansa AG
+    \end{itemize}
+}
 \subsection{Head of Mission Operations}
-\cvline{7/2018~--~present}{Planetary Transportation Systems GmbH (formerly PTScientists GmbH)
+\cvline{7/2018~--~2/2020}{Planetary Transportation Systems GmbH (formerly PTScientists GmbH)
     \begin{itemize}
 		\item Lead of the Mission Analysis \& Flight Dynamics Team
         \item Architect and project manager for the ground segment
-		\item Technical officer for operations support provided by ESOC (flight dynamics, communications, flight and surface operations)
+		\item Technical officer for operations support provided by ESOC% (flight dynamics, communications, flight and surface operations)
     \end{itemize}
 }
-\subsection{Software Engineer}
+\subsection{Software Engineer -- Astrodynamics}
 \cvline{2/2017~--~6/2018}{Telespazio VEGA Deutschland GmbH
     \begin{itemize}
-        \item Implementation of an attitude guidance generation tool for the mission planning system of ASI's PRISMA mission
+        \item Implementation of an attitude tool for ASI's PRISMA mission
         \item Evolution and maintenance of ESA's UMF (Universal Modelling Framework) for model-based development of operational simulators
-        \item Validation of the EGS-CC (European Ground Systems - Common Core) Monitoring and Command Model kernel
+        \item Validation of the EGS-CC Monitoring and Command Model kernel
     \end{itemize}
 }
 \subsection{Freelance Consultant in Mission Analysis}
@@ -76,7 +67,7 @@
                 % \begin{itemize}
                 %     \item Development of an integrated component data model in cooperation with two Brazilian universities (UNIMEP, Poli-USP)
                 % \end{itemize}
-                \item Organisational and teaching support for the lecture \emph{Virtual Product Development C -- Product and Process Modelling}
+                % \item Organisational and teaching support for the lecture \emph{Virtual Product Development C -- Product and Process Modelling}
             \end{itemize}
 }
 \subsection{Internship and Master's Thesis in Mission Analysis}
@@ -89,7 +80,7 @@
 \newpage
 
 \section{University Education}
-\subsection{Doctor's Degree in \enquote{Mechanical Engineering} -- Expected 2019}
+\subsection{Doctor's Degree in \enquote{Mechanical Engineering} -- Expected 2020}
 \cvline{11/2013~--~present}{Technische Universität Darmstadt}
 \cvline{}{Thesis~--~\emph{Model-Based Space Mission Design (working title)} \newline Advisor: Prof. Dr.-Ing. Reiner Anderl}
 
